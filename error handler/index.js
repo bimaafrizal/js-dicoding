@@ -10,8 +10,8 @@ class ValidationError extends Error {
     }
 }
 
-let json = '{ "age": 20 }';
-// let json = '{ "name": "Yoda", "age": 20 }';
+// let json = '{ "age": 20 }';
+let json = '{ "name": "Yoda", "age": 20 }';
  
 try {
     let user = JSON.parse(json);
