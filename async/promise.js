@@ -70,7 +70,7 @@ const state = {
 }
 
 const checkAvailability = () => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve, reje0ct) => {
         setTimeout(() => {
             if(!state.isCoffeeMachineBusy) {
                 resolve("Mesin kopi siap digunakan.");
